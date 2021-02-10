@@ -7,9 +7,9 @@ function MyApp() {
     return(
         
         <div>
-            <AwesomeFooter />
-            <MainContent />
             <AwesomeHeader />
+            <MainContent />
+            <AwesomeFooter />
         </div>
     )
 }

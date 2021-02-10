@@ -1,17 +1,16 @@
 import React from "react"
+import TodoItem from "./TodoItem"
+import "./style.css"
+import ContactList from "./ContactList"
 
 function App()
 {
     return(
         <div>
-            <input type="checkbox"></input>
-            <label> Complete React App</label><br></br>
-            <input type="checkbox"></input>
-            <label> Complete grocerry</label><br></br>
-            <input type="checkbox"></input>
-            <label> Guitar practise</label><br></br>
-            <input type="checkbox"></input>
-            <label> Book Reading</label><br></br>
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
         </div>
     )
 }
